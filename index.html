@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <!--Atividade do curso de ADS (Programação WEB) -->
+
+    <div class="container">
+        <h1>Cálculo de IMC</h1>
+        <div>
+            <input type="number" id="peso" placeholder="Informe seu peso">
+        </div>
+        
+        <div>
+            <input type="number" id="altura" placeholder="Informe sua altura com . ex: 1.70" >
+        </div>
+        <div>
+            <input type="submit" id="calcular" value="Calcular" onclick="calcularIMC()">
+        </div>
+    </div>
+
+    <!--Chamado para o JavaScript EXTERNO-->
+    <script src="calc.js"></script>
+</body>
+</html>
